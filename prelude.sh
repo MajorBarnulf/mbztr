@@ -8,5 +8,5 @@ export DENO_INSTALL="~/.deno"
 export PATH="$DENO_INSTALL/bin:$PATH"
 
 # indications
-echo "run with :
-deno -A \"[URL]\""
+echo "# run with :
+deno run -A \"https://raw.githubusercontent.com/MajorBarnulf/mbztr/main/complete.ts\""

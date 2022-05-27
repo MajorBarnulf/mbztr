@@ -19,11 +19,11 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 The `complete.ts` script installs each parts.
 
 ```sh
-deno run -A [URL]
+deno run -A "https://raw.githubusercontent.com/MajorBarnulf/mbztr/main/complete.ts"
 ```
 
 ### With the prelude
 
 ```sh
-curl -fsSL [URL] | sh
+curl -fsSL "https://raw.githubusercontent.com/MajorBarnulf/mbztr/main/prelude.sh" | sh
 ```
